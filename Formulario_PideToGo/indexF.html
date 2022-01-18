@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="font-awesome.css">
+
+    <script src="jquery-3.2.1.js"></script>
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+
+
+
+<!-- <div class="modal_wrap2">
+  <div class="mensaje_modal2">
+
+  <h2 class="modal2_title">Bienvenido
+      <span class="modal2_title modal2_tittle--bold">Nombre!</span>
+  </h2>
+
+  <div class="modal2_picture">
+    <img src="img/ilustracion.svg" alt="LOGO" class="modal2_img" width="200px" height="200px">
+  </div>
+
+  <p class="modal2_paragraph">Su registro fue completado exitosamente, su codigo de referdido es (var) 
+    <a href="#" class="link">¿para que es este codigo?</a> contactenos ahora mismo y disfrute de su primer servicio con un descuento de 3$.
+  </p>
+
+
+  <div class="boton">
+    <a href="https://wa.me/+584246144727?text=Hola,%20quisiera%20pedir%20un%20servicio!" target="_blank" class="ws">contactanos</a>
+  </div>
+
+  </div>
+</div>    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--<form class="form">  -->
+    <!-- <h2 class="form_title">Registro</h2>  -->
+
+    <div class="container">
+
+      <div class="title">Registrate</div>
+
+      <div class="content">
+        
+        <form action="#" method="post">
+          <div class="user-details">
+
+            <div class="input-box">
+
+              <input type="text" id="names" name="name" class="form_input" autocomplete="off" placeholder=" ">
+              <label for="name" class="form_label">Nombre competo</label>
+              <span class="form_line"></span>  <!-- tambien puede ser form_line -->
+               
+            </div>
+
+            <div class="input-box">
+
+              <input type="text" id="last_name" name="apellido" class="form_input" autocomplete="off" placeholder=" ">
+              <label for="name" class="form_label">Apellidos</label>
+              <span class="form_line"></span>  <!-- tambien puede ser form_line -->
+
+            </div>
+
+            <div class="input-box">
+
+              <input type="number" id="identity" name="cedula" class="form_input" autocomplete="off" placeholder=" ">
+              <label for="name" class="form_label">Cedula de identidad</label>
+              <span class="form_line"></span>  <!-- tambien puede ser form_line -->
+
+            </div>
+
+            <div class="input-box">
+
+              <input type="number" id="birth" name="nacimiento" class="form_input" autocomplete="off" placeholder=" ">
+              <label for="name" class="form_label">fecha de nacimiento</label>
+              <span class="form_line"></span>  <!-- tambien puede ser form_line -->
+
+            </div>
+
+            <div class="input-box">
+
+              <input type="number" id="phone" name="telefono" class="form_input" autocomplete="off" placeholder=" ">
+              <label for="name" class="form_label">Teléfono</label>
+              <span class="form_line"></span>  <!-- tambien puede ser form_line -->
+
+            </div>
+
+            <div class="input-box">
+
+              <input type="email" id="email" name="correo" class="form_input" autocomplete="off" placeholder=" " required>
+              <label for="name" class="form_label">Correo electronico</label>
+              <span class="form_line"></span>  <!-- tambien puede ser form_line -->
+
+            </div>
+
+            <div class="input-box">
+
+              <input type="text" id="code" name="codigo" class="form_input" autocomplete="off" placeholder=" ">
+              <label for="name" class="form_label">codigo de referido</label>
+              <span class="form_line"></span>  <!-- tambien puede ser form_line -->
+
+            </div>
+
+            <div class="input-box">
+
+              <input type="text" id="direction" name="direccion" class="form_input" autocomplete="off" placeholder=" ">
+              <label for="name" class="form_label">Dirección</label>
+              <span class="form_line"></span>  <!-- tambien puede ser form_line -->
+
+            </div>
+
+          </div>
+          
+
+          <div class="gender-details">
+
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+            <span class="gender-title">Genero</span>
+            
+            <div class="category">
+              <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender" id="Masculino" >Masculino</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender" id="femenino">Femenino</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender" id="sin_genero" >Prefiero no decirlo</span>
+              </label>
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" class="form_submit" name="register" id="btnSend" value="Registrarse">
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </form>
+
+<?php
+
+include("registrar.php");
+  
+?>
+  
+  
+  
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
